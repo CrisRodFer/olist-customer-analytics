@@ -1,0 +1,29 @@
+﻿# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+
+# Datos: no subir datos brutos ni derivados
+data/raw/*
+data/clean/*
+data/processed/*
+data/simulated/*
+
+# Mantener estructura de carpetas
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+!data/processed/.gitkeep
+!data/simulated/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Power BI temporales
+~$*
